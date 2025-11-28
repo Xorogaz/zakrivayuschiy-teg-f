@@ -150,37 +150,37 @@
   opacity: var(--sparks-opacity);
 }
 
-.card__icon-button:hover .like-icon .core{
+.card__icon-button:hover .like-icon .core {
   --animation-fill-color: black;
   transition: fill 0.3s linear;
 }
 
-.card__icon-button:hover .like-icon .main-body{
+.card__icon-button:hover .like-icon .main-body {
   --animation-fill-color: black;
   transition: fill 0.3s linear 0.05s;
 }
 
-.card__icon-button:active .like-icon .core{
+.card__icon-button:active .like-icon .core {
   --animation-fill-color: red;
   transition: fill 0.3s linear;
 }
 
-.card__icon-button:active .like-icon .main-body{
+.card__icon-button:active .like-icon .main-body {
   --animation-fill-color: red;
   transition: fill 0.3s linear 0.05s;
 }
 
-.like-icon.is-liked .contour{
+.like-icon.is-liked .contour {
   --contour-color: red;
   transition: fill 0.3s linear 0.06s;
 }
 
-.like-icon.is-liked .core{
+.like-icon.is-liked .core {
   --animation-fill-color: red;
   transition: fill 0.3s linear;
 }
 
-.like-icon.is-liked .main-body{
+.like-icon.is-liked .main-body {
   --animation-fill-color: red;
   transition: fill 0.3s linear 0.05s;
 }
@@ -223,7 +223,7 @@
   overflow: hidden;
 }
 
-.card__like-button::before{
+.card__like-button::before {
   content: "";
     position: absolute;
     top: 0;
@@ -234,7 +234,7 @@
     translate: -100% 0%;
 }
 
-.card__like-button:hover::before{
+.card__like-button:hover::before {
   transition: translate 0.5s ease-in-out;
   translate: 0% 0%;
 }
@@ -243,7 +243,7 @@
   box-shadow: 2px 2px #000;
 }
 
-.button__text__style{
+.button__text__style {
   font-size: 14px;
   position: relative;
   justify-self: center;
@@ -268,7 +268,7 @@
   overflow: hidden;
 } 
 
-.save_button::before{
+.save_button::before {
   content: "";
   position: absolute;
   top: 0;
@@ -279,7 +279,7 @@
   translate: -100% 0%;
 }
 
-.save_button:hover::before{
+.save_button:hover::before {
   transition: translate 0.5s ease-in-out;
   translate: 0% 0%;
 }
@@ -345,7 +345,7 @@
   overflow: hidden;
 }
 
-.save_dialog_button::before{
+.save_dialog_button::before {
   content: "";
   position: absolute;
   top: 0;
@@ -356,7 +356,7 @@
   translate: -100% 0%;
 }
 
-.save_dialog_button:hover::before{
+.save_dialog_button:hover::before {
   transition: translate 0.5s ease-in-out;
   translate: 0% 0%;
 }
@@ -417,5 +417,5 @@
     width: 306px;
     padding: 16px 17px 14px 17px;
     cursor: pointer;
-  }   
+  }
 }
