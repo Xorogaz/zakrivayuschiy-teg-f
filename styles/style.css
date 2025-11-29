@@ -40,7 +40,7 @@
   justify-content: center;
   margin: 98px auto 96px auto;
   max-width: 704px;
-  width: 100%;  
+  width: 100%;
   padding: clamp(7.5rem, 6.7898rem + 3.0303vw, 8.125rem) 0;
   font-family: 'PressStart2P', sans-serif;
   border: 2px solid #000;
@@ -69,7 +69,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  width: 100%;  
+  width: 100%;
   background-color: #fff;
   border: 2px solid #000;
   position: relative;
@@ -103,7 +103,7 @@
   text-transform: uppercase;
 }
 
-@supports (text-stroke: 0.5px #fff) or (-webkit-text-stroke: 0.5px #fff)  {
+@supports (text-stroke: 0.5px #fff) or (-webkit-text-stroke: 0.5px #fff) {
   .card_image_text {
     text-shadow: none;
     -webkit-text-stroke: 0.5px #fff;
